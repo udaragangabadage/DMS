@@ -71,7 +71,7 @@
 
 
 
-<form>
+<form class="signup-form" >
   <div class="form-group">
     <label for="">National Identification Number</label>
     <input type="text" class="form-control" id="" name="" placeholder="National Identification Number">
@@ -94,10 +94,10 @@
   </div>
   <div class="form-group">
     <label for="">Password</label>
-    <input type="password" class="form-control" id="" placeholder="Password">
+    <input type="password" class="form-control" name="pwd" id="" placeholder="Password">
   </div>
 
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" name="submit" class="btn btn-danger">Sign Up</button>
 </form>
 
 </div>
@@ -106,7 +106,7 @@
 
 
 
-<br><br>  
+<br><br>
 <?php
 include_once'footer.php'
 ?>
