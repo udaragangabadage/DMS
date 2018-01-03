@@ -140,11 +140,12 @@
 include_once'context.php'
 ?>
 <?php
-include_once'footer.php'
-?>
-<?php
 include_once'twitter.php'
 ?>
+<?php
+include_once'footer.php'
+?>
+
 
 
 
