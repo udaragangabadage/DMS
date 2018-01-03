@@ -90,7 +90,7 @@
           </li>
           <!-- <li class="nav-item">  <button href="signup.php" class="btn btn btn-warning btn-space my-2 my-sm-0" type="submit">Sign Up</button></li> -->
             <!-- <li> <a href="signup.php"></a> </li> -->
-            <li class="nav-item"><button href="signup.php" class="btn btn btn-warning btn-space my-2 my-sm-0" type="submit">Sign Up</button></li>
+            <a href="signup.php"><button class="btn btn btn-warning btn-space my-2 my-sm-0" type="submit">Sign Up</button></a>
         </ul>
     </div>
     </div>
