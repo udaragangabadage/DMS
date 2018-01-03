@@ -129,7 +129,7 @@
   <hr class="my-4">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corporis rem fugiat cumque nam minus ipsam aliquam aut velit distinctio autem animi reprehenderit, aspernatur iste repellendus quasi velit! Ut itaque minus, maiores. Deleniti, rerum nesciunt animi? Magnam laboriosam minus corporis rem dicta fugiat quam quo officia, beatae eum esse voluptates nesciunt ut temporibus dolor, nisi unde. Consequuntur impedit excepturi omnis numquam, expedita eum voluptas est saepe.</p>
   <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <a class="btn btn-danger btn-lg" href="#" role="button">Learn more</a>
   </p>
 </div>
 
