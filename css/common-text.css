@@ -2,3 +2,7 @@
   font-size: 50px;
   color: black;
 }
+
+ul {
+  list-style-type: none;
+}
