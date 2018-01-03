@@ -36,11 +36,11 @@
 
       <div class="col-sm-2">
         <h6 class="text-white">About Us</h6>
-        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim aborum.</p>
+        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et aborum.</p>
       </div>
       <div class="col-sm-2">
         <h6 class="text-white">Contact Us</h6>
-        <p class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        <p class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit e pariatur. </p>
       </div>
       <div class="col-sm-2">
         <h6 class="text-white">Navigation</h6>
