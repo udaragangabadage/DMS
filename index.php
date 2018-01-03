@@ -81,13 +81,14 @@
         <ul class="nav justify-content-end">
 
           <li class="nav-item">
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="User Name" >
-              <input class="form-control mr-sm-2" type="password" placeholder="Password" >
-              <button class="btn btn btn-dark btn-space my-2 my-sm-0" type="submit">Log In</button>
-              <button class="btn btn btn-warning btn-space my-2 my-sm-0" type="submit">Sign Up</button>
+            <form class="form-inline my-2 my-lg-0" >
+              <input class="form-control mr-sm-2" type="text" placeholder="User Name/E-mail" name="uid" >
+              <input class="form-control mr-sm-2" type="password" placeholder="Password" name="pwd" >
+              <button class="btn btn btn-dark btn-space my-2 my-sm-0" type="submit" name="submit">Log In</button>
+              <!-- <button class="btn btn btn-warning btn-space my-2 my-sm-0" type="submit">Sign Up</button> -->
               </form>
           </li>
+          <li class="nav-item">  <button class="btn btn btn-warning btn-space my-2 my-sm-0" type="submit">Sign Up</button></li>
 
         </ul>
     </div>
