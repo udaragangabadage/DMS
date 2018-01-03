@@ -97,9 +97,22 @@
 
 <!-- nav end -->
 
+<div class="container">
+  <div class="card card-body">
 
 
 
+
+
+
+
+
+
+  </div>
+</div>
+
+
+<br>
 <?php
 include_once'footer.php'
 ?>
