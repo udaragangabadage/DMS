@@ -32,9 +32,9 @@
       <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="images/madi-robson-113926.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-danger">Go somewhere</a>
+    <h5 class="card-title">About Us</h5>
+    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre.  </p>
+    <a href="#" class="btn btn-danger">Read More</a>
   </div>
 </div>
     </div>
@@ -42,28 +42,28 @@
       <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="images/arny-mogensen-172490.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-danger">Go somewhere</a>
+    <h5 class="card-title">Contact Us</h5>
+    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre.  </p>
+    <a href="#" class="btn btn-danger">Read More</a>
   </div>
 </div>
     </div><div class="col-sm-3">
       <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="images/andrew-gaines-365269.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-danger">Go somewhere</a>
+    <h5 class="card-title">RSS Feeds</h5>
+    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre.  </p>
+    <a href="#" class="btn btn-danger">Read More</a>
   </div>
 </div>
     </div>
     <div class="col-sm-3">
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
+        <img class="card-img-top" src="images/lorenzo-bollettini-359397.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-danger">Go somewhere</a>
+          <h5 class="card-title">Rich Media</h5>
+          <p class="card-text">  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre.</p>
+          <a href="#" class="btn btn-danger">Read More</a>
         </div>
       </div>
     </div>
