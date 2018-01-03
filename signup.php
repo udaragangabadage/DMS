@@ -88,9 +88,8 @@
               <!-- <button class="btn btn btn-warning btn-space my-2 my-sm-0" type="submit">Sign Up</button> -->
               </form>
           </li>
-          <!-- <li class="nav-item">  <button href="signup.php" class="btn btn btn-warning btn-space my-2 my-sm-0" type="submit">Sign Up</button></li> -->
-            <!-- <li> <a href="signup.php"></a> </li> -->
-            <li class="nav-item"><button href="signup.php" class="btn btn btn-warning btn-space my-2 my-sm-0" type="submit">Sign Up</button></li>
+          <li class="nav-item">  <button class="btn btn btn-warning btn-space my-2 my-sm-0" type="submit">Sign Up</button></li>
+
         </ul>
     </div>
     </div>
@@ -100,46 +99,10 @@
 
 
 
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="images/maria-water-delivery.jpg" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
-      <h5>Department Of Disaster Management</h5>
-      <p>Learn from the past, look to the future, but live in the present.</p> </div>
-      </div>
-
-  </div>
-</div>
 
 
 
 
-
-
-<!-- <img src="images/maria-water-delivery.jpg" class="img-fluid" alt="Responsive image">
-<h5>Welcom To Department Of Disaster Management</h5>
-<p>Learn from the past, look to the future, but live in the present.</p> -->
-
-
-
-<!-- jumbotron start -->
-<div class="jumbotron">
-  <h1 class="display-4">Welcome to Department Disaster Management</h1>
-  <p class="lead">We cannot stop natural disasters but we can arm ourselves with knowledge: so many lives wouldn't have to be lost if there was enough disaster preparedness.</p>
-  <hr class="my-4">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corporis rem fugiat cumque nam minus ipsam aliquam aut velit distinctio autem animi reprehenderit, aspernatur iste repellendus quasi velit! Ut itaque minus, maiores. Deleniti, rerum nesciunt animi? Magnam laboriosam minus corporis rem dicta fugiat quam quo officia, beatae eum esse voluptates nesciunt ut temporibus dolor, nisi unde. Consequuntur impedit excepturi omnis numquam, expedita eum voluptas est saepe.</p>
-  <p class="lead">
-    <a class="btn btn-danger btn-lg" href="#" role="button">Learn more</a>
-  </p>
-</div>
-
-
-
-
-<?php
-include_once'context.php'
-?>
 <?php
 include_once'footer.php'
 ?>
