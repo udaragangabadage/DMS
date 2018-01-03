@@ -1,3 +1,7 @@
+<?php
+session_start();
+ ?>
+
 <!doctype html>
 <html lang="en">
 
@@ -47,7 +51,7 @@
         <ul class="nav justify-content-end">
 
           <li class="nav-item">
-            <form class="form-inline my-2 my-lg-0" >
+            <form class="form-inline my-2 my-lg-0" action="includes/login.inc.php" method="POST">
               <input class="form-control mr-sm-2" type="text" placeholder="User Name/E-mail" name="uid" >
               <input class="form-control mr-sm-2" type="password" placeholder="Password" name="pwd" >
               <button class="btn btn btn-dark btn-space my-2 my-sm-0" type="submit" name="submit">Log In</button>
