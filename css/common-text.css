@@ -6,3 +6,7 @@
 ul {
   list-style-type: none;
 }
+
+.btn-space {
+  margin-right: 7px;
+}
