@@ -69,13 +69,14 @@
 <div class="container">
   <div class="card card-body">
 
+    <div class="form-group">
+      <label for="">National Identification Number</label>
+      <input type="text" class="form-control" id="" name="" placeholder="National Identification Number">
+    </div>
 
 
 <form class="signup-form" action="includes/signup.inc.php" method="POST">
-  <div class="form-group">
-    <label for="">National Identification Number</label>
-    <input type="text" class="form-control" id="" name="" placeholder="National Identification Number">
-  </div>
+
   <div class="form-group">
     <label for="">First Name</label>
     <input type="text" class="form-control" id="" name="first" placeholder="First Name">
