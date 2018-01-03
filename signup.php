@@ -71,7 +71,7 @@
 
 
 
-<form class="signup-form" action="includes/signup.inc.php" >
+<form class="signup-form" action="includes/signup.inc.php" method="POST">
   <div class="form-group">
     <label for="">National Identification Number</label>
     <input type="text" class="form-control" id="" name="" placeholder="National Identification Number">
