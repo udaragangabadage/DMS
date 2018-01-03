@@ -52,7 +52,7 @@
           <a class="nav-link text-white" href="#">Contact Us</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link text-white" href="#">Incident Report Center</a>
+          <a class="nav-link text-white" href="incident report center">Incident Report Center</a>
         </li>
 
         <li class="nav-item dropdown">
