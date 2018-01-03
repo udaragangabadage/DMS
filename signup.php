@@ -67,9 +67,15 @@
 <br>
 <!-- signup goes here -->
 <div class="container">
+  <div class="card card-body">
+
 
 
 <form>
+  <div class="form-group">
+    <label for="">National Identification Number</label>
+    <input type="text" class="form-control" id="" name="" placeholder="National Identification Number">
+  </div>
   <div class="form-group">
     <label for="">First Name</label>
     <input type="text" class="form-control" id="" name="first" placeholder="First Name">
@@ -87,21 +93,14 @@
     <input type="text" class="form-control" id="" name="uid" placeholder="Username">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
+    <label for="">Password</label>
     <input type="password" class="form-control" id="" placeholder="Password">
   </div>
-  <div class="form-group">
-    <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
+
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
-
+</div>
 
 </div>
 
