@@ -30,7 +30,7 @@
 
       <a class="navbar-brand text-dark" href="#">
       <!-- <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
-      <i class="fa fa-shield " aria-hidden="true"></i>
+      <i class="fa fa-shield alpha" aria-hidden="true"></i>
       Department Of Disaster Management
     </a>
       <!-- <a class="navbar-brand" href="#">Department Of Disaster Management</a> -->
