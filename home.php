@@ -54,8 +54,11 @@
         <li class="nav-item ">
           <a class="nav-link text-white" href="incident report center.php">Incident Report Center</a>
         </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="">Infomation Center</a>
+        </li>
 
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Infomation Center
           </a>
@@ -67,7 +70,7 @@
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
-        </li>
+        </li> -->
 
 
         <!-- <li class="nav-item">
