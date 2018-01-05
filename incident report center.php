@@ -169,43 +169,46 @@ include_once'header.php'
 
 <div class="container">
   <div class="card card-body">
-    <form>
 
+
+
+    <form>
+<!-- National Identification Number -->
       <div class="form-group">
         <label for="exampleInputEmail1">National Identification Number</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="NIC Number">
-</div>
+      </div>
+
+<!-- User Name -->
       <div class="form-group">
         <label for="exampleInputEmail1">User Name</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="User Name">
-</div>
+      </div>
 
+<!-- Email address -->
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
 
-</div>
-
-
-
-
-
-  <br>
+<!-- Search Incident Location -->
+<!-- map part -->
+<br>
 <div class="card card-body">
     <h4>Search Incident Location</h4>
 
     <!-- search input box -->
-    <form>
-    <div class="form-group input-group col-sm-6">
-        <input type="text" id="search_location" class="form-control" placeholder="Search location">
-        <div class="input-group-btn">
-            <button class="btn btn-danger get_map" type="submit">
+      <form>
+        <div class="form-group input-group col-sm-6">
+          <input type="text" id="search_location" class="form-control" placeholder="Search location">
+            <div class="input-group-btn">
+              <button class="btn btn-danger get_map" type="submit">
                 Locate
-            </button>
+              </button>
+            </div>
         </div>
-    </div>
-    </form>
-    <br>
+      </form>
+<br>
 
 
     <!-- display google map -->
@@ -213,32 +216,35 @@ include_once'header.php'
     <br><br>
     <!-- display selected location information -->
     <h4>Incident Location Details</h4><br>
-    <p>Address: <input type="text" class="search_addr" size="45"></p><br>
-    <p>Latitude: <input type="text" class="search_latitude" size="30"></p><br>
-    <p>Longitude: <input type="text" class="search_longitude" size="30"></p><br>
+      <p>Address: <input type="text" class="search_addr" size="45"></p><br>
+      <p>Latitude: <input type="text" class="search_latitude" size="30"></p><br>
+      <p>Longitude: <input type="text" class="search_longitude" size="30"></p><br>
 
 
-
-</html>
-
-
+<!-- Address -->
       <div class="form-group">
         <small id="emailHelp" class="form-text text-muted">Copy your Incident location details & paste on Location input field*</small>
 
-        <label for="exampleInputEmail1">Location</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Address: , Latitude: , Longitude: ">
-
+        <label for="exampleInputEmail1">Address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Address">
       </div>
-    <!-- <div class="form-group">
-      <label for="exampleInputEmail1">User Name</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    </div> -->
-    <!-- <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> -->
+
+<!-- Latitude -->
+      <div class="form-group">
+        <label for="exampleInputEmail1">Latitude</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Latitude">
+      </div>
+
+<!-- Longitude -->
+      <div class="form-group">
+        <label for="exampleInputEmail1">Longitude</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Longitude">
+      </div>
+
 
     </div>
+
+<!-- Incident Type -->
     <br>
     <div class="form-group">
       <label for="exampleFormControlSelect1">Incident Type</label><br>
@@ -251,26 +257,20 @@ include_once'header.php'
       </select>
     </div>
 
-<!-- google map goes here -->
-
-
-
-
-
-
-
-
-
 <br>
+<!-- Explanation For The Incident -->
+
 <div class="form-group">
 <label for="exampleFormControlTextarea1">Explanation For The Incident</label>
 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
+
 <br>
 
 <button class="btn btn btn-warning btn-space my-2 my-sm-0" type="submit">Submit</button>
 
 <br>
+
 </form>
 
 
@@ -280,9 +280,6 @@ include_once'header.php'
 
 
 
-    <!-- <div class="form-group">
-      <label for="exampleInputEmail1">Location</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> -->
 
     </div>
 
@@ -303,6 +300,8 @@ include_once'header.php'
 
 
 </div>
+
+
 <?php
 include_once'footer.php'
 ?>
