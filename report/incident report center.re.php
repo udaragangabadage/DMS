@@ -25,13 +25,7 @@ else{
       header("Location: ../incident report center.php?signup=invalid");
       exit();
 }
-else{
 
-  //check if email is valid
-    if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-    header("Location: ../incident report center.php?signup=email");
-    exit();
-}
 else{
 
     $sql = "SELECT * FROM increport WHERE address='$address'";
@@ -50,9 +44,8 @@ else{
     }
    }
   }
-}
 
-}else{
+else{
   header("Location: ../incident report center.php");
   exit();
 }

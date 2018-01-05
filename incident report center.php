@@ -164,31 +164,32 @@
 <?php
 include_once'header.php'
  ?>
+
 <!-- nav end -->
 <br>
-
+<form action="report/incident report center.re.php" method="POST">
 <div class="container">
   <div class="card card-body">
 
 
 
-    <form action="report/incident report center.re.php" method="POST">
+
 <!-- National Identification Number -->
       <div class="form-group">
         <label for="exampleInputEmail1">National Identification Number</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="NIC Number">
+        <input type="input" class="form-control"  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="NIC Number">
       </div>
 
 <!-- User Name -->
       <div class="form-group">
         <label for="exampleInputEmail1">User Name</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="User Name">
+        <input type="input" class="form-control" name="user_name" placeholder="User Name">
       </div>
 
 <!-- Email address -->
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <input type="email" class="form-control" name="user_email" placeholder="Enter email">
         </div>
 
 <!-- Search Incident Location -->
@@ -226,19 +227,19 @@ include_once'header.php'
         <small id="emailHelp" class="form-text text-muted">Copy your Incident location details & paste on Location input field*</small>
 
         <label for="exampleInputEmail1">Address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Address">
+        <input type="input" class="form-control"  name="address" placeholder="Enter Address">
       </div>
 
 <!-- Latitude -->
       <div class="form-group">
         <label for="exampleInputEmail1">Latitude</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Latitude">
+        <input type="input" class="form-control" name="latitude" placeholder="Enter Latitude">
       </div>
 
 <!-- Longitude -->
       <div class="form-group">
         <label for="exampleInputEmail1">Longitude</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Longitude">
+        <input type="input" class="form-control" name="latitude" placeholder="Enter Longitude">
       </div>
 
 
@@ -248,7 +249,7 @@ include_once'header.php'
     <br>
     <div class="form-group">
       <label for="exampleFormControlSelect1">Incident Type</label><br>
-      <select class="form-control" id="exampleFormControlSelect1">
+      <select class="form-control" name="incident">
         <option>Natural Disaster</option>
         <option>Road Side Accident</option>
         <option>Fire</option>
@@ -262,12 +263,12 @@ include_once'header.php'
 
 <div class="form-group">
 <label for="exampleFormControlTextarea1">Explanation For The Incident</label>
-<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+<textarea class="form-control" name="explanation" rows="3"></textarea>
 </div>
 
 <br>
 
-<button class="btn btn btn-warning btn-space my-2 my-sm-0" type="submit">Submit</button>
+<button class="btn btn btn-warning btn-space my-2 my-sm-0" type="submit" name="submit">Submit</button>
 
 <br>
 
