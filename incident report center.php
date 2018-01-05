@@ -172,7 +172,7 @@ include_once'header.php'
 
 
 
-    <form>
+    <form action="report/incident report center.re.php" method="POST">
 <!-- National Identification Number -->
       <div class="form-group">
         <label for="exampleInputEmail1">National Identification Number</label>
