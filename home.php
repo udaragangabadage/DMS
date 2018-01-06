@@ -160,7 +160,10 @@
   </p>
 </div>
 
-
+<h1 class="center display-4">Reported Incidents</h1>
+<?php
+include_once'latestincedents.php'
+?>
 <?php
 include_once'footer.php'
 ?>
