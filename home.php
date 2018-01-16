@@ -160,10 +160,21 @@
   </p>
 </div>
 
-<h1 class="center display-4">Reported Incidents</h1>
-<?php
-include_once'latestincedents.php'
-?>
+<!-- <h1 class="center display-4">Reported Incidents</h1> -->
+
+	<div class="card">
+	  <!-- <div class="card-header">
+	    Reported Incidents
+	  </div> -->
+	  <div class="card-body">
+	    <h5 class="card-title">Reported Incidents</h5>
+	    <?php
+
+			include_once'latestincedents.php'
+			?>
+		</div>
+	 </div>
+
 <?php
 include_once'footer.php'
 ?>
