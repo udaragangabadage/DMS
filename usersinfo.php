@@ -38,7 +38,7 @@ include_once'dbh.usersinfo.php';
 	<table class="table table-dark">
 		<thead>
 			<tr>
-				<th scope="col">#</th>
+				<!-- <th scope="col">#</th> -->
 				<!-- <th scope="col">User id</th> -->
 				<th scope="col">User First Name</th>
 				<th scope="col">User Last Name</th>
@@ -74,11 +74,11 @@ include_once'dbh.usersinfo.php';
 		while ($row = mysqli_fetch_assoc($result)) {
 
 
-			 echo "<th>" . $row['user_id']    . "</th>" ;
+			 // echo "<th>" . $row['user_id']    . "</th>" ;
 			 echo "<td>" . $row['user_first'] . "</td>" ;
 			 echo "<td>" . $row['user_last'] . "</td>" ;
 			 echo "<td>" . $row['user_email'] . "</td>" ;
-			 
+
 
 
 echo "</tr>";

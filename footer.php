@@ -25,7 +25,7 @@
 
 <body>
 
-<footer class="navbar-dark bg-danger">
+<footer class="navbar-dark bg-danger fixed-bottom">
   <br>
   <div class="container">
     <div class="row">

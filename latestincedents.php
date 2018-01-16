@@ -38,7 +38,7 @@ include_once'dbh.latestincedents.php';
 	<table class="table table-dark">
 		<thead>
 			<tr>
-				<th scope="col">#</th>
+				<!-- <th scope="col">#</th> -->
 				<th scope="col">User Name</th>
 				<th scope="col">User Email</th>
 				<th scope="col">Incident Address</th>
@@ -76,7 +76,7 @@ include_once'dbh.latestincedents.php';
 		while ($row = mysqli_fetch_assoc($result)) {
 
 
-			 echo "<th>" . $row['user_id']    . "</th>" ;
+			 // echo "<th>" . $row['user_id']    . "</th>" ;
 			 echo "<td>" . $row['user_name'] . "</td>" ;
 			 echo "<td>" . $row['user_email'] . "</td>" ;
 			 echo "<td>" . $row['address'] . "</td>" ;
