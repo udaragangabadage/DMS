@@ -47,27 +47,25 @@
             <a class="nav-link text-white" href="home.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">About Us</a>
+            <a class="nav-link text-white" href="aboutus.php">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Contact Us</a>
+            <a class="nav-link text-white" href="contactus.php">Contact Us</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-white" href="#">Incident Report Center</a>
+            <a class="nav-link text-white" href="incident report center.php">Incident Report Center</a>
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-white" href="informationcenter.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Infomation Center
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+              <a class="dropdown-item" href="informationcenter.php">Action</a>
+              <a class="dropdown-item" href="informationcenter.php">Another action</a>
+              <a class="dropdown-item" href="informationcenter.php">Another action</a>
+              <a class="dropdown-item" href="informationcenter.php">Another action</a>
+
           </li>
 
 
