@@ -58,18 +58,19 @@
           <a class="nav-link text-white" href="informationcenter.php">Infomation Center</a>
         </li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="informationcenter.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Infomation Center
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="informationcenter.php">Action</a>
-            <a class="dropdown-item" href="informationcenter.php">Another action</a>
-            <a class="dropdown-item" href="informationcenter.php">Another action</a>
-            <a class="dropdown-item" href="informationcenter.php">Another action</a>
-
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
           </div>
-        </li>
+        </li> -->
 
 
         <!-- <li class="nav-item">
@@ -97,83 +98,126 @@
     </div>
   </nav>
 
-<!-- nav end -->
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="images/andrew-gaines-365269.jpg" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
-    <h5>Welcom To Department Of Disaster Management</h5>
-    <p>We cannot stop natural disasters but we can arm ourselves with knowledge: so many lives wouldn't have to be lost if there was enough disaster preparedness.</p>
-  </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images/arny-mogensen-172490.jpg" alt="Second slide">
-      <div class="carousel-caption d-none d-md-block">
-    <h5>Welcom To Department Of Disaster Management</h5>
-    <p>Learn from the past, look to the future, but live in the present.</p>
-  </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images/benjamin-kerensa-363991.jpg" alt="Third slide">
-      <div class="carousel-caption d-none d-md-block">
-    <h5>Welcom To Department Of Disaster Management</h5>
-    <p>We cannot stop natural disasters but we can arm ourselves with knowledge: so many lives wouldn't have to be lost if there was enough disaster preparedness.</p>
-  </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images/madi-robson-113926.jpg" alt="Forth slide">
-      <div class="carousel-caption d-none d-md-block">
-    <h5>Welcom To Department Of Disaster Management</h5>
-    <p>Learn from the past, look to the future, but live in the present.</p>
-  </div>
-    </div>
-  </div>
-
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
-<div class="jumbotron">
-  <h1 class="display-4">Welcome to Department Disaster Management</h1>
-  <p class="lead">We cannot stop natural disasters but we can arm ourselves with knowledge: so many lives wouldn't have to be lost if there was enough disaster preparedness.</p>
-  <hr class="my-4">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corporis rem fugiat cumque nam minus ipsam aliquam aut velit distinctio autem animi reprehenderit, aspernatur iste repellendus quasi velit! Ut itaque minus, maiores. Deleniti, rerum nesciunt animi? Magnam laboriosam minus corporis rem dicta fugiat quam quo officia, beatae eum esse voluptates nesciunt ut temporibus dolor, nisi unde. Consequuntur impedit excepturi omnis numquam, expedita eum voluptas est saepe.</p>
-  <p class="lead">
-    <a class="btn btn-danger btn-lg" href="#" role="button">Read more</a>
-  </p>
-</div>
+<div class="container">
+	<div class="row">
 
-<!-- <h1 class="center display-4">Reported Incidents</h1> -->
+		<!-- <div class="col-sm-2">
+			<h6 class="">Copyright &copy; 2017</h6>
+		</div> -->
 
-	<div class="card">
-	  <!-- <div class="card-header">
-	    Reported Incidents
-	  </div> -->
-	  <div class="card-body">
-	    <h5 class="card-title">Reported Incidents</h5>
-	    <?php
-
-			include_once'latestincedents.php'
-			?>
+		<div class="col-sm-2">
+			<h6 class="text-primary">Natural isaters</h6>
+			<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et aborum.</p>
+			<button type="button" class="btn btn-primary">Primary</button>
 		</div>
-	 </div>
+		<div class="col-sm-2">
+			<h6 class="text-success">Road side Accident</h6>
+			<p class="">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			<button type="button" class="btn btn-success">Success</button>
+		</div>
+		<div class="col-sm-2">
+			<h6 class="text-danger">Fire</h6>
+			<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et aborum.</p>
+			<button type="button" class="btn btn-danger">Danger</button>
 
+		</div>
+		<div class="col-sm-2">
+			<h6 class="text-warning">Electric Breakdown</h6>
+			<p class="">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+		</div>
+		<div class="col-sm-2">
+			<h6 class="text-info">Gas Leakages</h6>
+			<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et aborum.</p>
+		</div>
+		<div class="col-sm-2">
+			<h6 class="text-dark">Other Disaters</h6>
+			<p class="">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+		</div>
+		<!-- <div class="col-sm-2">
+			<h6 class="">Navigation</h6>
+			<ul class="unstyled">
+				<li class=""> <a class=""  href="#">Home</a> </li>
+				<li class=""> <a class=""  href="#">About Us</a> </li>
+				<li class=""> <a class=""  href="#">Contact Us</a> </li>
+				<li class=""> <a class=""  href="#">Incident Report Center</a> </li>
+				<li class=""> <a class=""  href="#">Information Center</a> </li>
+
+			</ul>
+		</div> -->
+		<!-- <div class="col-sm-2">
+				<h6 class="">Follow us</h6>
+			<ul class="unstyled">
+				<li class=""> <a class=""  href="#">Twitter</a> </li>
+				<li class=""> <a class=""  href="#">Facebook</a> </li>
+				<li class=""> <a class=""  href="#">Instagram</a> </li>
+				<li class=""> <a class=""  href="#">Snapchat</a> </li>
+
+			</ul>
+		</div> -->
+		<!-- <div class="col-sm-2">
+			<h6 class="">United We Stand.</h6>
+			<h6 class=""> One Flag.One nation.</h6>
+
+
+
+		</div> -->
+
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <?php
 include_once'footer.php'
 ?>
