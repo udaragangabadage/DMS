@@ -118,30 +118,36 @@
 		<div class="col-sm-2">
 			<h6 class="text-primary">Natural isaters</h6>
 			<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et aborum.</p>
-			<button type="button" class="btn btn-primary">Primary</button>
+			<button type="button" class="btn btn-primary">Read More</button>
 		</div>
 		<div class="col-sm-2">
 			<h6 class="text-success">Road side Accident</h6>
 			<p class="">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-			<button type="button" class="btn btn-success">Success</button>
+			<button type="button" class="btn btn-success">Read More</button>
 		</div>
 		<div class="col-sm-2">
 			<h6 class="text-danger">Fire</h6>
 			<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et aborum.</p>
-			<button type="button" class="btn btn-danger">Danger</button>
+			<button type="button" class="btn btn-danger">Read More</button>
 
 		</div>
 		<div class="col-sm-2">
 			<h6 class="text-warning">Electric Breakdown</h6>
 			<p class="">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			<button type="button" class="btn btn-warning">Read More</button>
+
 		</div>
 		<div class="col-sm-2">
 			<h6 class="text-info">Gas Leakages</h6>
 			<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et aborum.</p>
+			<button type="button" class="btn btn-info">Read More</button>
+
 		</div>
 		<div class="col-sm-2">
 			<h6 class="text-dark">Other Disaters</h6>
 			<p class="">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			<button type="button" class="btn btn-dark">Read More</button>
+
 		</div>
 		<!-- <div class="col-sm-2">
 			<h6 class="">Navigation</h6>
