@@ -85,7 +85,7 @@
     </div> -->
 
 
-<form class="signup-form" action="includes/signup.inc.php" method="POST">
+<form class="signup-form" action="admindash/signup.dash.php" method="POST">
 
   <!-- <div class="form-group">
     <label for="">First Name</label>
