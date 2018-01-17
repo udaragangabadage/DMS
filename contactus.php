@@ -27,7 +27,7 @@
 <!-- nav start -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
 
-    <a class="navbar-brand text-dark" href="#">
+    <a class="navbar-brand text-dark" href="home.php">
     <!-- <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
     <i class="fa fa-shield " aria-hidden="true"></i>
     Department Of Disaster Management
@@ -132,7 +132,7 @@
 Galle Face,
 Colombo 1, Sri Lanka</code></p>
 				</div>
-				
+
 				<div class="col-sm-2">
 						<h6 class="text-black">Find Us On Social Media</h6>
 					<ul class="unstyled">
@@ -167,6 +167,8 @@ Colombo 1, Sri Lanka</code></p>
 <br>
 <br>
 <br>
+
+
 <?php
 include_once'footer.php'
 ?>
