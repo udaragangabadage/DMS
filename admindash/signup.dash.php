@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['submit'])){
 
-  include_once 'dbh.inc.php';
+  include_once 'dbh.dash.php';
 
   $first = $_POST['first'];
   $last = $_POST['last'];

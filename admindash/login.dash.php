@@ -5,7 +5,7 @@ session_start();
 
 if (isset($_POST['submit'])) {
 
-	include 'dbh.inc.php';
+	include 'dbh.dash.php';
 
 	$uid = $_POST['uid'];
 	$pwd = $_POST['pwd'];
