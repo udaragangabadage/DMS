@@ -25,7 +25,7 @@
 
 <body>
 
-<footer class="navbar-dark bg-danger fixed-bottom">
+<footer class="navbar-dark bg-danger">
   <br>
   <div class="container">
     <div class="row">
@@ -40,7 +40,7 @@
       </div>
       <div class="col-sm-2">
         <h6 class="text-white">Contact Us</h6>
-        <p class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit e pariatur. </p>
+        <p class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       </div>
       <div class="col-sm-2">
         <h6 class="text-white">Navigation</h6>

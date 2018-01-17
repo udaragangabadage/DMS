@@ -28,14 +28,19 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
 
     <a class="navbar-brand text-dark" href="#">
-    <!-- <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+
     <i class="fa fa-shield " aria-hidden="true"></i>
     Department Of Disaster Management
   </a>
-    <!-- <a class="navbar-brand" href="#">Department Of Disaster Management</a> -->
-    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> -->
+
+		<ul class="nav justify-content-end">
+			 <li class="nav-item">
+			 			<a href=""><button type="button" class="btn btn-dark my-2 my-sm-0">Logout</button></a>
+			 </li>
+    </ul>
+
+
+
 
   </nav>
 
@@ -83,7 +88,7 @@
 	    Reported Incidents
 	  </div> -->
 	  <div class="card-body">
-	    <h5 class="card-title">Reported Incidents</h5>
+	    <h5 class="card-title">User Info</h5>
 	    <?php
 
 			include_once'../usersinfo.php'
@@ -95,7 +100,14 @@
 
 
 
-
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
 
 
 
