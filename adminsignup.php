@@ -97,7 +97,7 @@
   </div> -->
 	<div class="form-group">
 		<label for="exampleFormControlSelect1">Admin Type</label><br>
-		<select class="form-control" name="incident">
+		<select class="form-control" name="type">
 				<option>incident report manager</option>
 				<option>police station chief</option>
 				<option>grama niladari officer</option>
