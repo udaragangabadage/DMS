@@ -90,8 +90,7 @@
 	  <div class="card-body">
 	    <h5 class="card-title">User Info</h5>
 	    <?php
-
-			include_once'../usersinfo.php'
+      include_once "../usersinfo.php";
 			?>
 		</div>
 	 </div>
