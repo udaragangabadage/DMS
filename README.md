@@ -1,6 +1,6 @@
 # DMS
-final proj
----
+Disaster Management System 
+
 ### Landing Page 
 ----------
 <p align="center">
